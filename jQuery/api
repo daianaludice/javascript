@@ -1,0 +1,6 @@
+( https://api.jquery.com/append/ )
+
+1. append()
+
+$( ".inner" ).append( "<p>Test</p>" );
+inner -> 해당 클래스로 변경
