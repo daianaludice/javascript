@@ -1,0 +1,56 @@
+AJAX()
+
+example)
+1.
+$.ajax({
+  method: "POST",
+  url: "some.php",
+  data: { name: "John", location: "Boston" }
+})
+  .done(function( msg ) {
+    alert( "Data Saved: " + msg );
+  });
+
+2.
+$.ajax({
+  url: "test.html",
+  cache: false
+})
+  .done(function( html ) {
+    $( "#results" ).append( html );
+  });
+
+3.
+var xmlDocument = [create xml document];
+var xmlRequest = $.ajax({
+  url: "page.php",
+  processData: false,
+  data: xmlDocument
+});
+ 
+xmlRequest.done( handleResponse );
+
+4.
+var menuId = $( "ul.nav" ).first().attr( "id" );
+var request = $.ajax({
+  url: "script.php",
+  method: "POST",
+  data: { id : menuId },
+  dataType: "html"
+});
+ 
+request.done(function( msg ) {
+  $( "#log" ).html( msg );
+});
+ 
+request.fail(function( jqXHR, textStatus ) {
+  alert( "Request failed: " + textStatus );
+});
+
+5.
+
+$.ajax({
+  method: "GET",
+  url: "test.js",
+  dataType: "script"
+});
