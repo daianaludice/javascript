@@ -12,7 +12,7 @@
 <br>
 참고 사이트: <br>
 1)jQuery : https://jqueryui.com/ <br>
-2)기초문법 : [https://www.inflearn.com/course/%EB%A0%88%EC%B8%A0%EA%B8%B0%EB%A6%BF-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8](https://www.inflearn.com/courses/lecture?courseId=327126&type=LECTURE&unitId=80429&tab=curriculum) <br>
+2)기초문법 : https://www.inflearn.com/course/%EB%A0%88%EC%B8%A0%EA%B8%B0%EB%A6%BF-%EC%9E%90%EB%B0%94%EC%8A%A4%ED%81%AC%EB%A6%BD%ED%8A%B8 <br>
 <br>
 
 
